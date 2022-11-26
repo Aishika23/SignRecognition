@@ -1,0 +1,32 @@
+<html>
+    <head>
+<title>Sign Recognition</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="main.js"></script>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    </head>
+    <body>
+        <center>
+        <h2>Welcome to Sign Recognition</h2>
+        <h3>This Webapp will help you to understand sign language so that you can communicate with more people!</h3>
+        <label>This webapp is designed to understand all the letters in sign language</label>
+        <br><br>
+        <button onclick="take_snapshot()">Start Communicating</button><br><br>
+        <hr>
+        <br>
+        <div id="camera"></div>
+        <br><button onclick="check()">Identify</button><br><br>
+        <div id="result"></div>
+        
+        <H3 id="letters">Your letters will be displayed here</H3><br><hr>
+        
+    </center>
+    </body>
+</html>

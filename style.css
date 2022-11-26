@@ -1,0 +1,23 @@
+div
+{
+    height: 350;
+    width: 350;
+    border-style: dotted;
+}
+body{
+    background-image: url("bg3.jpg");
+    background-size: cover;
+    color: white;
+    font-family: 'Poppins', monospace;
+}
+button{
+    height: 40;
+    width: 200;
+    border-radius: 10px;
+    box-shadow: 10;
+    font-size: 15;
+    border-color: white;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(151, 2, 2);
+}
